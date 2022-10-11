@@ -27,5 +27,9 @@ module.exports = {
 };
 
 function dateSample(sampleActivity){
+  if (typeof sampleActivity == 'string'){
 
+  }else{
+    return false;
+  }
 }
